@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form</title>
+	<link rel="stylesheet" type="text/css" href="banking.css">
+</head>
+<body>
+<section>
+	<form action="banking.html" method="post">
+	<h1>Banking Form</h1>
+<!--Basic Information -->
+		<fieldset>
+			<lable for="FirstName">First Name:</lable><br>
+			<input type="text" id="FirstName" name="FirstName"><br>
+
+			<label for="MiddleInitial">Middle Initial:</label><br>
+			<input type="text" id="MiddleInitial" name="MiddleInitial"><br>
+
+			<label for="LastName">Last Name:</label><br>
+			<input type="text" id="LastName" name="LastName"><br>
+
+			<label for="Address">Address:</label><br>
+			<input type="text" id="Address" name="Address"><br>
+
+			<label for="Occupation">Occupation:</label><br>
+			<input type="text" id="Occupation" name="Occupation"><br>
+
+			<label for="Employer">Employer:</label><br>
+			<input type="text" id="Employer" name="Employer"><br>
+
+			<label for="EmployerAddress">Employer Address:</label><br>
+			<input type="text" id="EmployerAddress" name="EmployerAddress"><br>
+		</fieldset>
+
+<!--Loan Information -->
+		<fieldset>
+			<label>Type of Loan:</label><br>
+			<select id="LoanType" name="LoanType">
+				<option value="empty">-- --</option>
+				<option value="Commercial">Commerical</option>
+				<option value="RealEstate">Real Estate</option>
+				<option value="Personal">Personal</option>
+				<option value="Mortgage">Mortgage</option>
+			</select><br>
+
+			<label for="Amount">Requested Amount:</label><br>
+			<input type="text" id="Amount" name="Amount"><br>
+
+			<label>Loan Length:</label><br>
+			<input type="radio" id="5years" value="5years" name="length"><label for="5years">5 Years</label><br>
+			<input type="radio" id="15years" value="15years" name="length"><label for="15years">15 Years</label><br>
+			<input type="radio" id="30years" value="30years" name="length"><label for="30years">30 Years<label><br>
+		</fieldset>
+
+		<fieldset>
+			<label>Special Conditions:</label><br>
+			<input type="checkbox" id="DownPayment" value="DownPayment" name="SpecialConditions"><label for="DownPayment">I have a down payment</label><br>
+			<input type="checkbox" id="OutOfState" value="OutOfState" name="SpecialConditions"><label for="OutOfState">Out-of-state resident</label><br>
+			<input type="checkbox" id="Married" value="Married" name="SpecialConditions"><label for="Married">Married</label><br>
+			<input type="checkbox" id="Co-Signed" value="Co-Signed" name="SpecialConditions"><label for="Co-Signed">Loan will be co-signed</label><br>
+		</fieldset>
+
+<!--Comments -->
+		<fieldset>
+			<label for="comment">Comments:</label><br>
+			<textarea id="comment" name="comment"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email"><br>
+
+			<label for="tel">Telephone Number:</label><br>
+			<input type="tel" id="tel" name="tel"><br>
+
+			<label for="Linkurl">LinkedIn URL:</label><br>
+			<input type="url" id="Linkurl" name="Linkurl"><br>
+
+
+		</fieldset>
+
+
+		
+	</form>
+</section>
+</body>
+</html>

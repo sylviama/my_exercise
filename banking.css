@@ -1,0 +1,20 @@
+section {
+	width: 40%;
+	margin: auto;
+	background-color: lightgrey;
+	display: block;
+	padding: 5px auto;
+	line-height: 150%;
+
+}
+
+fieldset {
+	border: none;
+	margin: 10px 5px;
+}
+
+h1 {
+	text-align: center;
+
+}
+

@@ -1,0 +1,30 @@
+.Bigger{
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+header{
+	background-color: lightgreen;
+	padding: 15px 10px;
+	border-bottom: solid green 5px;
+}
+article {
+	padding: 2px 5px 30px;
+	background-color: lightgrey;
+	width: 70%;
+	margin: 20px auto;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	float: right;
+	padding-right: 10px;
+}
+
+.FooterNotRight {
+	float: left;
+	padding: 20px 10px;
+}
