@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boy Bands and Vegetables</title>
+</head>
+<body>
+<div id="boy-bands">
+</div><br><br>
+
+<div id= "vegetables">
+</div>
+
+<script>
+ var bands = ["boyz II Men", "NSync", "New Kids on the Block", "98 Degrees", "One Direction"];
+ var vegetables = ["Carrots", "Kale", "Zucchini", "Broccoli", "Squash"];
+
+ var currentBand = "";
+ var currentVeggie = "";
+
+ for (i=0; i<bands.length; i+=1){
+  currentBand+= "<li>"+ bands[i]+ "</li>";
+ }
+
+ document.getElementById("boy-bands").innerHTML = currentBand;
+
+ for (i=0; i<vegetables.length; i+=1){
+  currentVeggie +="<li>" + vegetables[i] + "</li>";
+ }
+
+ document.getElementById("vegetables").innerHTML = currentVeggie;
+
+</script>
+  
+</body>
+</html>
